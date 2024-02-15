@@ -9,7 +9,7 @@ def Bytes_to_MegaBytes(size_bytes):
 
 wifi = speedtest.Speedtest()
 
-print("Getting dowload speed...")
+print("Getting download speed...")
 download_speed = wifi.download()
 
 print("Getting upload speed...")
